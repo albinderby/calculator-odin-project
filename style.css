@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width:220px;
+    padding:5px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.display{
+    width: 90%;
+    height:50px;
+    border:1px solid black;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+button{
+    box-sizing: border-box;
+    
+    min-width: 44px;
+    padding:10px;
+    font-size:25px;
+}
+
+.clear{
+    border:none;
+    background-color: red;
+    border: 1px solid rgb(141, 12, 12);
+}
+.operator{
+    background-color: orange;
+    border:1px solid rgb(146, 97, 7)
+}
